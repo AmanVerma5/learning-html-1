@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+header{
+    background-color: #FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:60px;
+    padding-right:60px;
+    color:black
+}
+.navbar{
+    position:sticky;
+    top:0;
+}
+h1{
+    font-size: 3em;
+}
+a{
+    font-size:larger;
+    padding:20px;
+    text-decoration: none;
+}
+a:link{
+    color:black;
+}
+img{
+    width:500px;
+    height:200px;
+    transform: scaleX(-1);
+    float:right;
+}
+.intro_section{
+    margin:40px 40px;
+}
+button{
+    background-color:#FCAF02;
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    width:200px;
+    height:50px;
+}
+h2{
+    font-size: xx-large;
+}
+.intro>p{
+    font-size: larger;
+}
+.contact_us{
+    margin:40px 40px;
+}
+.contact_us>h2{
+    color:#FCAF02;
+}
+.contact_us>input{
+    background-color: black;
+    border-color: #FCAF02;
+    line-height: 40px;
+    border-radius:20px;
+}
+input:focus{
+    outline: none;
+}
+input{
+    color: #FCAF02;
+    font-size:larger;
+}
+::placeholder{
+    color:#FCAF02;
+    padding-left: 30px;
+}
+.name,.email{
+    width:100%;
+    margin-bottom: 20px;
+}
+.mobile,.city{
+    width: 45%;
+    margin-bottom: 20px;
+}
+.city{
+    float:right;
+}
+#submit_form{
+    display: block;
+    margin:0 auto;
+}
+table{
+    width:90%;
+   color:#FCAF02;
+   margin:0 auto;
+}
+table,th{
+    border:1px solid #FCAF02;
+    border-collapse: collapse;
+}
+th,td{
+    padding:30px;
+    text-align: left;
+}
+tfoot{
+    background-color: #FCAF02;
+    color:black;
+}
+td{
+    border-right: 1px solid #FCAF02;
+}
+tfoot>tr>td{
+    border-right: 1px solid black;
+}
